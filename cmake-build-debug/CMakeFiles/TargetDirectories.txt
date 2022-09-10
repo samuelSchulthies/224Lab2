@@ -1,0 +1,3 @@
+/Users/samuelschulthies/CLionProjects/Lab2CS224/224Lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/samuelschulthies/CLionProjects/Lab2CS224/224Lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/samuelschulthies/CLionProjects/Lab2CS224/224Lab2/cmake-build-debug/CMakeFiles/Lab2CS224.dir
