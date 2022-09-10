@@ -8,16 +8,16 @@ int main() {
     float fishlegs = 4;
     double stoic = 5;
 
-    char b;
-    char e;
-    char r;
-    char k;
+    char b = 0;
+    char e = 0;
+    char r = 0;
+    char k = 0;
 
-    int dragons [3] = {0, 1, 2};
-    char berk [4] = {b, e, r, k};
+    int *dragons [3] = {0, 1, 2};
+    char *berk [4] = {b, e, r, k};
 
-    int *dragons_p = (int *) &dragons;
-    char *berk_p = (char *) &berk;
+    //int *dragons_p = (int *) &dragons;
+    //char *berk_p = (char *) &berk;
 
 
 
@@ -36,11 +36,11 @@ int main() {
     printf ("%p\n", stoic_p);
 
     for (int i = 0; i < 3; ++i){
-        printf ("dragons: %d\n", dragons_p[i]);
+        printf ("dragons: %p\n", dragons[i]);
     }
 
     for (int i = 0; i < 4; ++i){
-        printf ("berk: %c\n", berk_p[i]);
+        printf ("berk: %p\n", berk[i]);
     }
 
 
