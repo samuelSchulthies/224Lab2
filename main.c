@@ -36,11 +36,11 @@ int main() {
     printf ("%p\n", stoic_p);
 
     for (int i = 0; i < 3; ++i){
-        printf ("dragons: %p\n", dragons_p[i]);
+        printf ("dragons: %d\n", dragons_p[i]);
     }
 
     for (int i = 0; i < 4; ++i){
-        printf ("berk: %p\n", berk_p[i]);
+        printf ("berk: %c\n", berk_p[i]);
     }
 
 
