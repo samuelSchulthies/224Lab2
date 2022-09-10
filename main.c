@@ -16,8 +16,8 @@ int main() {
     int *dragons [3] = {0, 1, 2};
     char *berk [4] = {b, e, r, k};
 
-    //int *dragons_p = (int *) &dragons;
-    //char *berk_p = (char *) &berk;
+    int *dragons_p = dragons;
+    char *berk_p = berk;
 
 
 
@@ -36,11 +36,11 @@ int main() {
     printf ("%p\n", stoic_p);
 
     for (int i = 0; i < 3; ++i){
-        printf ("dragons: %p\n", dragons[i]);
+        printf ("dragons: %p\n", dragons_p[i]);
     }
 
     for (int i = 0; i < 4; ++i){
-        printf ("berk: %p\n", berk[i]);
+        printf ("berk: %p\n", berk_p[i]);
     }
 
 
