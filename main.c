@@ -8,10 +8,10 @@ int main() {
     float fishlegs = 4;
     double stoic = 5;
 
-    char b = 0;
-    char e = 0;
-    char r = 0;
-    char k = 0;
+    char b = b;
+    char e = e;
+    char r = r;
+    char k = k;
 
     int dragons [3] = {1, 2, 3};
     char berk [4] = {b, e, r, k};
