@@ -13,11 +13,11 @@ int main() {
     char r = 0;
     char k = 0;
 
-    int *dragons [3] = {0, 1, 2};
-    char *berk [4] = {b, e, r, k};
+    int dragons [3] = {1, 2, 3};
+    char berk [4] = {b, e, r, k};
 
-    int *dragons_p = dragons;
-    char *berk_p = berk;
+    int *dragons_p = (int *) &dragons;
+    char *berk_p = (char *) &berk;
 
 
 
