@@ -45,13 +45,22 @@ int main() {
 
     int userInput [5];
     int *userInput_p = userInput;
+    int userAverageTemp = 0;
+    int userAverage = 0;
 
     printf ("Give me 5 numbers\n");
 
     for (int i = 0; i < 5; ++i){
-        //printf("yo\n");
         scanf ("%d", &userInput[i]);
     }
+
+    for (int i = 0; i < 5; ++i){
+        userAverageTemp += userInput[i];
+    }
+
+    userAverage = userAverageTemp / 5;
+
+    printf ("%d\n\n", &userAverage);
 
 //    printf("Your input before sorting:\n");
 //
