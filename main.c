@@ -61,7 +61,7 @@ int main() {
 
     userAverage = userAverageTemp / 5;
 
-    printf ("Input average: %d\n", userAverage_p);
+    printf ("Input average: %d\n", userAverage);
 
 //    printf("Your input before sorting:\n");
 //
