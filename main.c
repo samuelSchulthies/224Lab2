@@ -48,26 +48,26 @@ int main() {
     printf ("Give me 5 numbers\n");
 
     for (int i = 0; i < 5; ++i){
-        printf("yo\n");
+        //printf("yo\n");
         scanf ("%d", &userInput[i]);
     }
 
 
-    for (int i = 0; i < 5; ++i){
-        for (int j = 0; j < 4; ++i){
-            if ((userInput[j] > userInput[j + 1])){
-                int temp = userInput[j];
-                userInput[j] = userInput[j + 1];
-                userInput[j + 1] = temp;
-            }
-        }
-    }
-
-    printf("Your input sorted:\n");
-
-    for (int i = 0; i < 5; ++i){
-        printf ("%d\n", &userInput[i]);
-    }
+//    for (int i = 0; i < 5; ++i){
+//        for (int j = 0; j < 4; ++i){
+//            if ((userInput[j] > userInput[j + 1])){
+//                int temp = userInput[j];
+//                userInput[j] = userInput[j + 1];
+//                userInput[j + 1] = temp;
+//            }
+//        }
+//    }
+//
+//    printf("Your input sorted:\n");
+//
+//    for (int i = 0; i < 5; ++i){
+//        printf ("%d\n", &userInput[i]);
+//    }
 
     return 0;
 }
