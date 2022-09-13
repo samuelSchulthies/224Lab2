@@ -62,7 +62,7 @@ int main() {
         }
     }
 
-    printf("Your input sorted:\n")
+    printf("Your input sorted:\n");
 
     for (int i = 0; i < 5; ++i){
         printf(i);
