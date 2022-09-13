@@ -52,10 +52,10 @@ int main() {
         scanf ("%d", &userInput[i]);
     }
 
-    printf("sorting\n");
+    //printf("sorting\n");
 
     for (int i = 0; i < 5; ++i){
-        for (int j = 0; j < 4; ++i){
+        for (int j = 0; j < 4; ++j){
             if ((userInput[j] > userInput[j + 1])){
                 int temp = userInput[j];
                 userInput[j] = userInput[j + 1];
