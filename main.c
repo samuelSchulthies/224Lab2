@@ -52,22 +52,23 @@ int main() {
         scanf ("%d", &userInput[i]);
     }
 
+    printf("sorting\n");
 
-//    for (int i = 0; i < 5; ++i){
-//        for (int j = 0; j < 4; ++i){
-//            if ((userInput[j] > userInput[j + 1])){
-//                int temp = userInput[j];
-//                userInput[j] = userInput[j + 1];
-//                userInput[j + 1] = temp;
-//            }
-//        }
-//    }
-//
-//    printf("Your input sorted:\n");
-//
-//    for (int i = 0; i < 5; ++i){
-//        printf ("%d\n", &userInput[i]);
-//    }
+    for (int i = 0; i < 5; ++i){
+        for (int j = 0; j < 4; ++i){
+            if ((userInput[j] > userInput[j + 1])){
+                int temp = userInput[j];
+                userInput[j] = userInput[j + 1];
+                userInput[j + 1] = temp;
+            }
+        }
+    }
+
+    printf("Your input sorted:\n");
+
+    for (int i = 0; i < 5; ++i){
+        printf ("%d\n", &userInput[i]);
+    }
 
     return 0;
 }
