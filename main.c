@@ -48,8 +48,8 @@ int main() {
     printf ("Give me 5 numbers\n");
 
     for (int i = 0; i < 5; ++i){
-        scanf ("%d", &userInput[i]);
         printf("yo\n");
+        scanf ("%d", &userInput[i]);
     }
 
 
