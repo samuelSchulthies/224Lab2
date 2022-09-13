@@ -65,7 +65,6 @@ int main() {
     printf("Your input sorted:\n");
 
     for (int i = 0; i < 5; ++i){
-        printf(i);
         printf ("%d\n", &userInput[i]);
     }
 
