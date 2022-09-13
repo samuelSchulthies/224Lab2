@@ -44,6 +44,7 @@ int main() {
 //    }
 
     int userInput [5];
+    int *userInput_p = userInput;
 
     printf ("Give me 5 numbers\n");
 
@@ -55,7 +56,7 @@ int main() {
     printf("Your input before sorting:\n");
 
     for (int i = 0; i < 5; ++i){
-        printf ("%d\n", &userInput[i]);
+        printf ("%d\n", userInput_p[i]);
     }
 
     for (int i = 0; i < 5; ++i){
@@ -71,7 +72,7 @@ int main() {
     printf("Your input sorted:\n");
 
     for (int i = 0; i < 5; ++i){
-        printf ("%d\n", &userInput[i]);
+        printf ("%d\n", userInput_p[i]);
     }
 
     return 0;
