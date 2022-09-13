@@ -53,11 +53,11 @@ int main() {
         scanf ("%d", &userInput[i]);
     }
 
-    printf("Your input before sorting:\n");
-
-    for (int i = 0; i < 5; ++i){
-        printf ("%d\n", userInput_p[i]);
-    }
+//    printf("Your input before sorting:\n");
+//
+//    for (int i = 0; i < 5; ++i){
+//        printf ("%d\n", userInput_p[i]);
+//    }
 
     for (int i = 0; i < 5; ++i){
         for (int j = 0; j < 4; ++j){
